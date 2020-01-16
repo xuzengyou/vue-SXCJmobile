@@ -1,0 +1,88 @@
+<template>
+  <div id="app">
+    <!-- <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </div> -->
+    <router-view/>
+  </div>
+</template>
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    border:0; 
+    box-sizing:border-box;
+}
+address,
+em,
+i {
+    font-style: normal;
+}
+
+body {
+    font-size: 0.14rem;
+    line-height: 1.5;
+    font-family: 'Microsoft YaHei', 'Heiti SC', 'tahoma', 'arial', 'Hiragino Sans GB', 'sans-serif';
+    color: #000;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+input,
+button{
+    outline:none;
+    border: 0;  
+}
+
+a,
+img {
+    -webkit-touch-callout: none;
+}
+a:active,
+a:focus,
+a{
+    color: #000;
+    text-decoration: none;
+}
+a{
+  -webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+
+a:hover {
+    text-decoration: none;
+    color: #c30d23;
+}
+
+
+textarea {
+    resize: none;
+    outline: 0;
+    -webkit-appearance: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background: #fff
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+:focus {
+    outline: none;
+}
+.clearfix:after { 
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden; 
+}
+.w{
+    background-color: #fff;
+    margin: 0 auto;
+}
+</style>
